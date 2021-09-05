@@ -4,6 +4,7 @@ Stuff to install:
 - https://cmder.net/
 - https://git-scm.com/download/win
 - https://www.python.org/downloads/
+- https://winmerge.org/downloads/?lang=en
 
 
 Stuff to install from STORE:
