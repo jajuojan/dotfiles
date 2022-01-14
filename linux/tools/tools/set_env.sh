@@ -14,8 +14,8 @@ export PATH=$PATH:~/tools/gradle/bin
 export PATH=~/tools/lein:$PATH
 
 # Go-lang
-export GOPATH=~/tools/gopath
-export GOROOT=~/tools/go
+export GOPATH=~/tools/go/gopath
+export GOROOT=~/tools/go/go1.17.5
 export PATH=$GOROOT/bin:$PATH
 export PATH=$PATH:$GOPATH/bin
 
@@ -23,6 +23,10 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=~/tools/node/bin/:$PATH
 export PATH=~/tools/npm_packages/bin:$PATH
 export PATH=~/.yarn/bin/:$PATH
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Yarn
 export PATH=~/tools/yarn/bin/:$PATH
@@ -61,3 +65,7 @@ export PATH=$PATH:~/bin
 #export WINEPREFIX=/games/wineprefix/wine64_3.19
 #export WINEARCH=win64
 export PATH=/games/wine/linux-amd64/3.19/bin:$PATH
+
+# DotNet
+export PATH=$PATH:~/tools/dotnet-sdk-6.0.100/sdk
+export DOTNET_CLI_TELEMETRY_OPTOUT=true

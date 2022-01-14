@@ -11,13 +11,18 @@ ZSH_THEME="robbyrussell"
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:~/bin:~/tools/bin
 source ~/tools/tools/set_env.sh
 
-# Custom Xmodmap
-# if [ -f $HOME/.Xmodmap ]; then
-#    /usr/bin/xmodmap $HOME/.Xmodmap
-# fi
+if [[ $DISPLAY ]]; then
+    # Custom Xmodmap
+    # if [ -f $HOME/.Xmodmap ]; then
+    #    /usr/bin/xmodmap $HOME/.Xmodmap
+    # fi
 
-# Make caps do something useful
-setxkbmap -layout fi -option caps:hyper
+    # Make caps do something useful
+    setxkbmap -layout fi -option caps:hyper
+
+    # Disable non-breaking space
+    xmodmap -e "keycode  65 = space space space space space NoSymbol space"
+fi
 
 # Alias
 alias pbcopy='xsel --clipboard --input'
@@ -26,9 +31,6 @@ alias ack='ack -i'
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# Random settings
-export DOTNET_CLI_TELEMETRY_OPTOUT=true
 
 # THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="~/.sdkman"
