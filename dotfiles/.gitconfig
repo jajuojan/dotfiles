@@ -4,6 +4,8 @@
 [core]
   excludesfile = ~/.global_gitignore
   editor = vim
+  # Windows
+  # autocrlf = input
 [push]
   default = current
 [color]
@@ -17,6 +19,7 @@
   co = checkout
   p = pull --ff-only
   rso = remote show origin
+  b = branch
 [diff]
   tool = meld
 [merge "ours"]
