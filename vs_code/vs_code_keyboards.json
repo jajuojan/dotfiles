@@ -1,29 +1,28 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
   {
-    "key": "ctrl+alt+n",
-    "command": "workbench.action.files.newUntitledFile"
+    "command": "workbench.action.files.newUntitledFile",
+    "key": "ctrl+alt+n"
   },
   {
-    "key": "ctrl+n",
-    "command": "-workbench.action.files.newUntitledFile"
+    "command": "-workbench.action.files.newUntitledFile",
+    "key": "ctrl+n"
   },
   {
-    "key": "ctrl+n",
-    "command": "workbench.action.quickOpen"
+    "command": "workbench.action.quickOpen",
+    "key": "ctrl+n"
   },
   {
-    "key": "ctrl+p",
-    "command": "workbench.action.quickOpen"
+    "command": "workbench.action.quickOpen",
+    "key": "ctrl+p"
   },
   {
-    "key": "ctrl+alt+b",
     "command": "gitlens.toggleFileBlame",
+    "key": "ctrl+alt+b",
     "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /blameable/"
   },
   {
-    "key": "ctrl+shift+g b",
     "command": "-gitlens.toggleFileBlame",
+    "key": "ctrl+shift+g b",
     "when": "editorTextFocus && config.gitlens.keymap == 'chorded' && gitlens:activeFileStatus =~ /blameable/"
   }
 ]

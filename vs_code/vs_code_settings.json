@@ -1,151 +1,150 @@
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "editor.minimap.enabled": false,
-    "search.followSymlinks": false,
-    "markdown.preview.linkify": false,
-    "editor.renderWhitespace": "all",
-    "editor.emptySelectionClipboard": false,
-    "editor.detectIndentation": false,
-    "workbench.colorTheme": "Monokai Dimmed",
-    "workbench.editor.untitled.labelFormat": "name",
-    "python.venvPath": "~/tools/python-virt-envs/",
-    "python.linting.prospectorEnabled": false,
-    "plantuml.server": "",
-    "extensions.ignoreRecommendations": false,
-    "files.exclude": {
-      "**/.git": true,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/CVS": true,
-      "**/.DS_Store": true,
-      "**/*.pyc": true,
-      "**/node_modules/*": true
-    },
-    "[python]": {
-      "editor.rulers": [
-        100
-      ]
-    },
-    "[plaintext]": {
-      "editor.rulers": [
-      ],
-      "editor.acceptSuggestionOnEnter": "off",
-      "editor.wordBasedSuggestions": false
-    },
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "shellcheck.disableVersionCheck": true,
-    "editor.links": false,
-    "files.associations": {
-      "Vagrantfile": "ruby",
-      "*.template": "json"
-    },
-    "terminal.integrated.shell.windows": "cmd.exe",
-    "terminal.integrated.env.windows": {
-      "CMDER_ROOT": "C:\\tools\\Cmder"
-    },
-    "terminal.integrated.shellArgs.windows": [
-      "/k",
-      "%CMDER_ROOT%\\vendor\\bin\\vscode_init.cmd"
-    ],
-    "gitlens.codeLens.enabled": false,
-    "gitlens.defaultDateStyle": "absolute",
-    "gitlens.defaultDateFormat": "YY-MM-DD HH:MM",
-    "gitlens.defaultDateShortFormat": "YY-MM-DD HH:MM",
-    "gitlens.hovers.currentLine.over": "line",
-    "gitlens.currentLine.enabled": false,
-    "gitlens.blame.compact": false,
-    "gitlens.blame.dateFormat": "DDMMYY",
-    "gitlens.blame.format": "${date} ${author|3}: ${message|25-}",
-    "gitlens.statusBar.enabled": true,
-    "gitlens.advanced.telemetry.enabled": false,
-    "gitlens.defaultGravatarsStyle": "retro",
-    "gitlens.blame.highlight.enabled": true,
-    "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features",
-      "editor.tabSize": 2
-    },
-    "[yaml]": {
-      "editor.tabSize": 2,
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "explorer.confirmDelete": false,
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.tabSize": 2
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.tabSize": 2
-    },
-    "[jsonc]": {
-      "editor.defaultFormatter": "vscode.json-language-features",
-      "editor.tabSize": 2
-    },
-    "gitlens.advanced.messages": {
-      "suppressLineUncommittedWarning": true
-    },
-    "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "yaml.customTags": [
-      "!And",
-      "!And sequence",
-      "!If",
-      "!If sequence",
-      "!Not",
-      "!Not sequence",
-      "!Equals",
-      "!Equals sequence",
-      "!Or",
-      "!Or sequence",
-      "!FindInMap",
-      "!FindInMap sequence",
-      "!Base64",
-      "!Join",
-      "!Join sequence",
-      "!Cidr",
-      "!Ref",
-      "!Sub",
-      "!Sub sequence",
-      "!GetAtt",
-      "!GetAZs",
-      "!ImportValue",
-      "!ImportValue sequence",
-      "!Select",
-      "!Select sequence",
-      "!Split",
-      "!Split sequence"
-    ],
-    "yaml.validate": false,
-    "python.showStartPage": false,
-    "csharp.referencesCodeLens.enabled": false,
-    "gitHistory.showEditorTitleMenuBarIcons": false,
-    "gitlens.menus": {
-      "editorGroup": {
-          "blame": false,
-          "compare": false
-      },
-    },
-    "docker.showStartPage": false,
-    "workbench.editorAssociations": {
-      "*.ipynb": "jupyter.notebook.ipynb"
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
-    "redhat.telemetry.enabled": false,
-    "editor.renderControlCharacters": true,
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.unicodeHighlight.allowedCharacters": {
-      "ä": true,
-      "ö": true
-    },
-    "liveshare.guestApprovalRequired": true,
-    "liveshare.languages.allowGuestCommandControl": true,
-    "liveshare.allowGuestTaskControl": true,
-    "python.formatting.provider": "black",
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.editor.untitled.hint": "hidden"
-  }
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2
+  },
+  "[plaintext]": {
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.rulers": [],
+    "editor.wordBasedSuggestions": false
+  },
+  "[python]": {
+    "editor.rulers": [
+      100
+    ]
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "csharp.referencesCodeLens.enabled": false,
+  "docker.showStartPage": false,
+  "editor.detectIndentation": false,
+  "editor.emptySelectionClipboard": false,
+  "editor.links": false,
+  "editor.minimap.enabled": false,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "editor.unicodeHighlight.allowedCharacters": {
+    "ä": true,
+    "ö": true
+  },
+  "explorer.confirmDelete": false,
+  "extensions.ignoreRecommendations": false,
+  "files.associations": {
+    "*.template": "json",
+    "Vagrantfile": "ruby"
+  },
+  "files.exclude": {
+    "**/*.pyc": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/node_modules/*": true
+  },
+  "gitHistory.showEditorTitleMenuBarIcons": false,
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  "gitlens.advanced.telemetry.enabled": false,
+  "gitlens.blame.compact": false,
+  "gitlens.blame.dateFormat": "DDMMYY",
+  "gitlens.blame.format": "${date} ${author|3}: ${message|25-}",
+  "gitlens.blame.highlight.enabled": true,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.defaultDateFormat": "YY-MM-DD HH:MM",
+  "gitlens.defaultDateShortFormat": "YY-MM-DD HH:MM",
+  "gitlens.defaultDateStyle": "absolute",
+  "gitlens.defaultGravatarsStyle": "retro",
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.menus": {
+    "editorGroup": {
+      "blame": false,
+      "compare": false
+    }
+  },
+  "gitlens.statusBar.enabled": true,
+  "liveshare.allowGuestTaskControl": true,
+  "liveshare.guestApprovalRequired": true,
+  "liveshare.languages.allowGuestCommandControl": true,
+  "markdown.preview.linkify": false,
+  "plantuml.server": "",
+  "python.formatting.provider": "black",
+  "python.linting.prospectorEnabled": false,
+  "python.showStartPage": false,
+  "python.venvPath": "~/tools/python-virt-envs/",
+  "redhat.telemetry.enabled": false,
+  "search.followSymlinks": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "shellcheck.disableVersionCheck": true,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "terminal.integrated.env.windows": {
+    "CMDER_ROOT": "C:\\tools\\Cmder"
+  },
+  "terminal.integrated.shell.windows": "cmd.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "/k",
+    "%CMDER_ROOT%\\vendor\\bin\\vscode_init.cmd"
+  ],
+  "workbench.colorTheme": "Monokai Dimmed",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.editor.untitled.labelFormat": "name",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "yaml.validate": false
+}
